@@ -8,41 +8,42 @@ header{
   color:black;
 }
 
-#about-me{
-  width:25%;
-  height: 250px;
-  padding:1em;
-  border: 4px solid black;
-  text-align:center;
-  font-size:15px;
-  color:black;
+.projects{
+  background-color:darkgray;
+  color:white;
+  text-align:justify;
   float:left;
   margin:0 1.5%;
-
-
-}
-
-
-
-#hackthetimes{
   width:25%;
-  height: 250px;
+  height:250px;
   padding:1em;
-  border:4px solid black;
-  color:black;
-  font-size:15px;
-  text-align:center;
-  float:left;
-  margin: 0 1.5%;
+  position:relative;
+}
 
+.projects > div{
+  /*background-color:white;*/
+  height:100px;
+  padding-top:10px;
 
 }
+
+.projects p {
+  position:absolute;
+  top:160px;
+  width:90%;
+}
+
+.projects a {
+  position:absolute;
+  top:140px;
+}
+
 
 .screenshot{
   width:100px;
   display:block;
   margin:auto;
-  padding-bottom:5px;
+  height:70px;
 
 }
 
@@ -50,18 +51,6 @@ header{
   width:75px;
   height:70px;
 }
-
-
-#karma{
-  width:25%;
-  height: 250px;
-  padding:1em;
-  border:4px solid black;
-  text-align:center;
-  float: left;
-  margin: 0 1.5%;
-}
-
 
 #current-projects:after {
   content: "";
